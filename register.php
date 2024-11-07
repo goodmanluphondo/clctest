@@ -24,6 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
+    global $pdo;
+
     $errorBag = [];
 
     $first_name = $_POST["first_name"] ?? "";

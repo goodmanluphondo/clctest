@@ -2,7 +2,6 @@
 
 require_once __DIR__ . '/config.php';
 
-use Controllers\Authentication;
 use Helpers\Layout;
 
 if (isset($_SESSION['user'])) {
@@ -25,6 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         exit();
     }
+
+    global $pdo;
 
     $errorBag = [];
 

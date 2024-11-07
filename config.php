@@ -24,7 +24,7 @@ define('RECAPTCHA_SECRET_KEY', '6LfRSXcqAAAAALvtPyDsYP9PIRV1yNX1f2JdAdQ-');
 require_once __DIR__ . '/pdo.php';
 
 spl_autoload_register(function ($class) {
-    $directories = ['Controllers', 'Helpers', 'Models'];
+    $directories = ['Helpers', 'Models'];
 
     foreach ($directories as $directory) {
         $file = __DIR__ . '/' . str_replace('\\', '/', $class) . '.php';

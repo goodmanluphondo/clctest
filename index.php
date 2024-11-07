@@ -9,6 +9,8 @@ if (!isset($_SESSION['user'])) {
     exit();
 }
 
+global $pdo;
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $favourite_language = (int)$_POST['favourite_language'] ?? "";
 

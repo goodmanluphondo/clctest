@@ -7,6 +7,7 @@ if (!isset($_SESSION['user'])) {
     header('Location: login.template.php');
     exit();
 }
+global $pdo;
 
 $results = \Models\Vote::tally($pdo);
 

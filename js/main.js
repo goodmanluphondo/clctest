@@ -12,26 +12,3 @@ function buildErrorBag(errors) {
 
     return errorBag;
 }
-
-const rules = {
-    firstName: {
-        required: true,
-    },
-    lastName: {
-        required: true,
-    },
-    username: {
-        required: true,
-    },
-    password: {
-        required: true,
-        minLength: 8,
-        maxLength: 15,
-        upperCase: true,
-        specialChar: true,
-    },
-    codingLanguage: {
-        isNumber: true,
-        required: true,
-    }
-}

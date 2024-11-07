@@ -15,8 +15,8 @@ define('METADATA_DESCRIPTION', 'CLC Test');
 define('DB_CONNECTION', 'mysql');
 define('DB_HOST', 'localhost');
 define('DB_DATABASE', 'test');
-define('DB_USERNAME', 'goodman');
-define('DB_PASSWORD', '');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'mysql');
 
 define('RECAPTCHA_SITE_KEY', '6LfRSXcqAAAAAJUJ5qJtIX7xgKwa76zuhCi61VPa');
 define('RECAPTCHA_SECRET_KEY', '6LfRSXcqAAAAALvtPyDsYP9PIRV1yNX1f2JdAdQ-');

@@ -46,16 +46,11 @@ use Helpers\Layout;
         let errors = [];
 
         let first_name = $('#first_name').val().trim();
-        let last_name  = $('#last_name').val().trim();
         let username   = $('#username').val().trim();
         let password   = $('#password').val().trim();
 
         if (first_name === "") {
             errors.push({first_name: 'First name is required'});
-        }
-
-        if (last_name === "") {
-            errors.push({last_name: 'Last name is required'});
         }
 
         if (username === "") {
@@ -110,7 +105,6 @@ use Helpers\Layout;
     function clearErrorContainers() {
         $('#status').text("");
         $('#first_name-errors').html("");
-        $('#last_name-errors').html("");
         $('#username-errors').html("");
         $('#password-errors').html("");
     }

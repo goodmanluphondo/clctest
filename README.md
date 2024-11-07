@@ -22,7 +22,7 @@ clctest.goodmanmade.me
 
 ## Demo
 
-For referencing purposes, the project has been deployed remotely and be access through the link: [https://clctest.goodmanmade.me](https://clctest.goodmanmade.me)
+For referencing purposes, the project has been deployed remotely and can be access through the link: [https://clctest.goodmanmade.me](https://clctest.goodmanmade.me)
 
 ## Credit
 
